@@ -132,7 +132,7 @@ nav .navbar-nav li a.active {
 }
 .container .card-x .footer {
   position: absolute;
-  bottom: 13px;
+  bottom: 15px;
   width: 35rem;
   background: #2997c6c5;
   border-radius: 0 0 10px 10px;
@@ -254,11 +254,11 @@ nav .navbar-nav li a.active {
 }
 @media (max-width: 552px) {
   .carousel .carousel-item {
-    height: 200px;
+    height: 190px;
   }
   .carousel .carousel-item img {
-    min-height: 200px;
-    max-height: 200px;
+    min-height: 190px;
+    max-height: 190px;
   }
   .container .card-x .card-body img {
     min-width: 15rem;
@@ -311,6 +311,13 @@ nav .navbar-nav li a.active {
 }
 
 @media (max-width: 380px) {
+  .carousel .carousel-item {
+    height: 180px;
+  }
+  .carousel .carousel-item img {
+    min-height: 180px;
+    max-height: 180px;
+  }
   .container .card-x .card-body img {
     min-width: 10rem;
     max-width: 10rem;
