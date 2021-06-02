@@ -1,5 +1,8 @@
 # WebMOBI-task
-
+## Tech Stack
+- HTML
+- CSS
+- Bootstrap
 ## Demo
  - Website: https://web-mobi.netlify.app <br>
 <br>
