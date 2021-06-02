@@ -75,13 +75,13 @@ nav .navbar-nav li a.active {
   /* opacity: 0.5; */
   border-radius: 0 0 10px 10px;
   color: white;
-  padding: 3px 0 3px;
+  padding: 7px 0 3px;
 }
 .txt {
   font-size: 24px;
 }
 .carousel .carousel-item {
-  height: 500px;
+  height: 430px;
   border-radius: 10px 10px 0 0;
   position: relative;
   transition: 0.4s;
@@ -90,8 +90,8 @@ nav .navbar-nav li a.active {
 .carousel .carousel-item img {
   object-fit: cover;
   border-radius: 10px;
-  min-height: 500px;
-  max-height: 500px;
+  min-height: 430px;
+  max-height: 430px;
 }
 .carousel .carousel-item .dark-overlay {
   border-radius: 10px;
@@ -111,9 +111,12 @@ nav .navbar-nav li a.active {
   min-height: 50px;
   max-height: 50px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.carousel .carousel-item .carousel-caption h5 {
+  font-size: 12px;
 }
 .carousel .controller::before {
   border-radius: 10px !important;
@@ -276,7 +279,7 @@ nav .navbar-nav li a.active {
   .container .card-x .card-body img {
     min-width: 13.4rem;
     max-width: 13.4rem;
-    height: 165px;
+    height: 150px;
   }
   .container .card-x .footer {
     width: 13.4rem;
@@ -290,7 +293,7 @@ nav .navbar-nav li a.active {
   .container .card-x .card-body img {
     min-width: 12rem;
     max-width: 12rem;
-    height: 150px;
+    height: 140px;
   }
   .container .card-x .footer {
     width: 12rem;
@@ -300,7 +303,7 @@ nav .navbar-nav li a.active {
   .container .card-x .card-body img {
     min-width: 11rem;
     max-width: 11rem;
-    height: 150px;
+    height: 130px;
   }
   .container .card-x .footer {
     width: 11rem;
@@ -312,16 +315,16 @@ nav .navbar-nav li a.active {
 
 @media (max-width: 380px) {
   .carousel .carousel-item {
-    height: 180px;
+    height: 140px;
   }
   .carousel .carousel-item img {
-    min-height: 180px;
-    max-height: 180px;
+    min-height: 140px;
+    max-height: 140px;
   }
   .container .card-x .card-body img {
     min-width: 10rem;
     max-width: 10rem;
-    height: 140px;
+    height: 120px;
   }
   .container .card-x .footer {
     width: 10rem;
